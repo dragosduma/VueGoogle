@@ -22,16 +22,12 @@
         </div>
         <div class="language-list">
             <p>Google offered in: </p>
-            <a href="index-ro.html" class="language">Română</a>
-            <a href="index-hu.html" class="language">Magyar</a>
-            <a href="index-de.html" class="language">Deutsch</a>
+            <a class="language">Română</a>
+            <a class="language">Magyar</a>
+            <a class="language">Deutsch</a>
         </div>
     </section>
-
 </template>
-
-<script>
-</script>
 
 <style>
 .logo {
@@ -122,11 +118,11 @@
     align-content: space-around;
     margin: 0px 5px;
     color: #0300a8;
+    text-decoration: underline;
 }
 
 .search-pic {
     height: 20px;
     width: 20px;
 }
-
 </style>
