@@ -1,3 +1,9 @@
+<template>
+  <Header></Header>
+  <Content></Content>
+  <Footer></Footer>
+</template>
+
 <script>
 import Header from './components/Header.vue'
 import Content from './components/Content.vue'
