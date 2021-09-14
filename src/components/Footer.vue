@@ -1,0 +1,64 @@
+<template>
+    <footer class="footer">
+        <div>
+            <h3>Romania</h3>
+        </div>
+        <div class="footer-a">
+             <ul>
+                <li>About</li>
+                <li>Advertising</li>
+                <li>Bussines</li>
+                <li>How Search Works</li>
+            </ul>
+            <ul>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </div>
+    </footer>
+</template>
+
+<script>
+</script>
+
+<style>
+.footer {
+    position:absolute;
+    width:100%;
+    bottom: 0;
+    left: 0;
+    padding: 7px 1px;
+    background-color: #f2f2f2;
+    font-size: 13px;
+}
+
+footer h3 {
+    color:#70757A;
+    font-weight: 400;
+    padding: 5px 30px 15px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    padding-right: 100%;
+}
+
+.footer .footer-a {
+    padding: 5px 30px 0px 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.footer .footer-a ul {
+    display: flex;
+    padding: 10px 0;
+}
+
+.footer .footer-a ul li {
+    margin: 0 10px;
+    font-size: 15px;
+    color: #70757A;
+}
+
+</style>
