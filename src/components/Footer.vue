@@ -61,4 +61,17 @@ footer h3 {
     color: #70757A;
 }
 
+  @media (min-width: 680px) {
+    .footer .footer-a {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .footer .footer-a {
+      justify-content: space-between;
+      padding: 0 30px;
+    }
+  }
 </style>
