@@ -19,8 +19,6 @@
         </ul>
     </header>
 </template>
-<script>
-</script>
 
 <style>
 .dropdown-apps:hover .dropdown-content-apps {

@@ -19,9 +19,6 @@
     </footer>
 </template>
 
-<script>
-</script>
-
 <style>
 .footer {
     position:absolute;
